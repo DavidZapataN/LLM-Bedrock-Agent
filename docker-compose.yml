@@ -1,0 +1,9 @@
+services:
+  app:
+    image: sagemaker-assistant:latest
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped

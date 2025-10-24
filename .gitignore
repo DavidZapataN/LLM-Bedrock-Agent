@@ -1,0 +1,52 @@
+# entornos virtuales
+.venv/
+venv/
+env/
+.env.*
+.python-version
+
+# variables de entorno
+.env
+*.env
+.aws/
+.aws-credentials
+
+# caché y archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# streamlit
+.streamlit/
+.cache/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# IDEs y editores
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.project
+.settings/
+.classpath
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+.*.sw?
